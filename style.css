@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background-color: green;
+  overflow: hidden;
+  font-family: "Press Start 2P", "Lucida Console", monospace;
+  font-size: 50px;
+  color: white;
+}
+
+div.mole {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: #a54f2a;
+  border-radius: 50px;
+  top: calc(50vh - 50px);
+  left: calc(50vw - 50px);
+  border: 5px solid #513513;
+}
